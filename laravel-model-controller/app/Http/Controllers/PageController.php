@@ -8,6 +8,6 @@ class PageController extends Controller
 {
     public function index(){
         $movies = Movie::all();
-        return view('home');
+        return (compact('movies'));
     }
 }
