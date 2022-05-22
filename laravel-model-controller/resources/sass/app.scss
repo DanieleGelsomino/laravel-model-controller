@@ -1,1 +1,29 @@
 //
+
+.dg-card {
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 150px;
+    }
+
+    h5{
+        font-size: 0.7rem;
+    }
+
+
+       h3 {
+           font-size: 0.9rem;
+    }
+
+
+
+}
